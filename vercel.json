@@ -1,3 +1,4 @@
 {
-  "framework": "@vercel/node"
+  "framework": "@vercel/node",
+  "rewrites": [{ "source": "/(.*)", "destination": "/main.ts" }]
 }
